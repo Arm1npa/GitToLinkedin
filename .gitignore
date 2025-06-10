@@ -1,0 +1,11 @@
+# Ignore environment variables and secrets
+.env
+# Ignore Python cache
+__pycache__/
+# Ignore build and dist folders from PyInstaller
+build/
+dist/
+# Ignore PyInstaller spec files
+*.spec
+# Ignore VSCode settings (optional)
+.vscode/
