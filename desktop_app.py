@@ -2,6 +2,9 @@ import tkinter as tk
 from tkinter import ttk, messagebox, scrolledtext
 from github import get_github_repo_info
 from gemini import generate_linkedin_post
+from dotenv import load_dotenv
+
+load_dotenv()
 
 class GitToLinkedInApp(tk.Tk):
     def __init__(self):
